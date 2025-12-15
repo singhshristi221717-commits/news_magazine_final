@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SkyNews - Topics</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Grid layout for topics */
+        .topics-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .topics-grid .card img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .topics-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+
+</head>
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <h2>SkyNews</h2>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Topics</a></li>
+        <li><a href="contact.html">Subscribe</a></li>
+    </ul>
+</div>
+
+<div class="wrapper">
+    <h1>News Topics</h1>
+
+    <!-- 9 TOPICS GRID -->
+    <div class="topics-grid">
+
+        <!-- 1 TECHNOLOGY -->
+        <div class="card">
+            <img src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg">
+            <h3>Technology</h3>
+            <p>Latest innovations, AI breakthroughs, gadgets & future tech.</p>
+        </div>
+
+        <!-- 2 SPORTS -->
+        <div class="card">
+            <img src="https://images.pexels.com/photos/399187/pexels-photo-399187.jpeg">
+            <h3>Sports</h3>
+            <p>Match results, tournaments, player stats & major sports updates.</p>
+        </div>
+
+        <!-- 3 ENTERTAINMENT -->
+        <div class="card">
+            <img src="https://images.pexels.com/photos/799137/pexels-photo-799137.jpeg">
+            <h3>Entertainment</h3>
+            <p>Movies, web series, celebrity news & viral entertainment buzz.</p>
+        </div>
+
+        <!-- 4 POLITICS -->
+        <div class="card">
+            <img src="https://images.pexels.com/photos/1054777/pexels-photo-1054777.jpeg">
+            <h3>Politics</h3>
+            <p>Global political developments & government policy updates.</p>
+        </div>
+
+        <!-- 5 HEALTH -->
+        <div class="card">
+            <img src="https://images.pexels.com/photos/4167544/pexels-photo-4167544.jpeg">
+            <h3>Health</h3>
+            <p>Fitness, wellness, research studies & health advisories.</p>
+        </div>
+
+        <!-- 6 BUSINESS -->
+        <div class="card">
+            <img src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg">
+            <h3>Business</h3>
+            <p>Stock market trends, finance, companies & global economy.</p>
+        </div>
+
+        <!-- 7 TRAVEL -->
+        <div class="card">
+            <img src="https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg">
+            <h3>Travel</h3>
+            <p>Beautiful destinations, travel tips & adventure experiences.</p>
+        </div>
+
+        <!-- 8 SCIENCE -->
+        <div class="card">
+            <img src="https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg">
+            <h3>Science</h3>
+            <p>Space research, discoveries, experiments & scientific updates.</p>
+        </div>
+
+        <!-- 9 WORLD NEWS -->
+        <div class="card">
+            <img src="https://images.pexels.com/photos/356850/pexels-photo-356850.jpeg">
+            <h3>World News</h3>
+            <p>International events, global affairs & breaking world headlines.</p>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
